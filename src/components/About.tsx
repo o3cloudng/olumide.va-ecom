@@ -121,10 +121,10 @@ export const About: React.FC = () => {
                     Olumide Oderinde
                   </h4>
                   <p className="text-xs text-[#4A90A4] font-medium">
-                    Professional Virtual Assistant & Automator
+                    Executive VA • E-Commerce Specialist • Virtual Bookkeeper
                   </p>
                   <p className="text-xs text-[#5C6773] mt-0.5">
-                    Liaising with teams across the US, UK, and Europe
+                    Liaising with brands & executives across the US, UK, and Europe
                   </p>
                 </div>
               </div>
@@ -133,15 +133,19 @@ export const About: React.FC = () => {
               <div className="mt-4 space-y-3 text-xs text-[#475467]">
                 <div className="flex items-start gap-2.5">
                   <span className="font-bold text-[#16323D] shrink-0">Discretion:</span>
-                  <span>NDAs respected with strict adherence to data privacy and security best practices.</span>
+                  <span>Strict confidentiality, NDAs respected, and secure handling of sensitive financial records and executive credentials.</span>
+                </div>
+                <div className="flex items-start gap-2.5">
+                  <span className="font-bold text-[#16323D] shrink-0">Precision:</span>
+                  <span>Meticulous ledger balancing, inventory tracking, and calendar buffers guaranteeing zero operational discrepancy.</span>
                 </div>
                 <div className="flex items-start gap-2.5">
                   <span className="font-bold text-[#16323D] shrink-0">Proactivity:</span>
-                  <span>Anticipating roadblocks, preparing briefing notes, and solving issues before they escalate.</span>
+                  <span>Anticipating roadblocks, reconciling feeds ahead of deadlines, and solving problems before they escalate.</span>
                 </div>
                 <div className="flex items-start gap-2.5">
                   <span className="font-bold text-[#16323D] shrink-0">Automation:</span>
-                  <span>Never doing manually what a clean, reliable Zapier or n8n trigger can do instantly.</span>
+                  <span>Never doing manually what a clean, reliable Zapier or n8n trigger can do instantly in the background.</span>
                 </div>
               </div>
             </div>
@@ -174,8 +178,8 @@ export const About: React.FC = () => {
                     <Wifi className="w-4 h-4 text-[#377385]" />
                   </div>
                   <div>
-                    <h5 className="text-xs font-bold text-[#16323D]">Dual Redundant Fiber</h5>
-                    <p className="text-xs text-[#5C6773]">High-speed 100+ Mbps primary fiber connection plus secondary cellular backup.</p>
+                    <h5 className="text-xs font-bold text-[#16323D]">Fast Internet Infrastructure</h5>
+                    <p className="text-xs text-[#5C6773]">High-speed 50+ Mbps primary router connection plus secondary cellular backup.</p>
                   </div>
                 </div>
 

@@ -21,7 +21,7 @@ export interface ImpactCard {
 
 export interface ToolItem {
   name: string;
-  category: 'Automation & AI' | 'Productivity & Workspace' | 'Project Management' | 'Communication & CRM';
+  category: 'Automation & AI' | 'Productivity & Workspace' | 'Project Management' | 'Communication & CRM' | 'E-Commerce & Retail' | 'Bookkeeping & Finance';
   description: string;
   level: string;
 }
@@ -29,29 +29,30 @@ export interface ToolItem {
 export const PORTFOLIO_DATA = {
   profile: {
     name: 'Olumide Oderinde',
-    role: 'Virtual Assistant | Executive Support & Operations',
-    specialization: 'Executive Assistance & AI/No-Code Workflow Automation',
-    tagline: 'Reclaiming hours for high-performing founders and executives through organized support and smart automation.',
+    role: 'Virtual Assistant | Executive Support, E-Commerce & Bookkeeping',
+    specialization: 'Executive Assistance • E-Commerce Store Management • Virtual Bookkeeping • No-Code Automations',
+    tagline: 'Reclaiming hours for high-performing founders, e-commerce brands, and executives through meticulous operations, bookkeeping, and smart automation.',
     location: 'Nigeria (Remote)',
     email: 'olumideooderinde@gmail.com',
     phone: '+234 810 523 0929', // professional contact placeholder or display format
     timezones: 'US (EST/CST/PST) • UK (GMT/BST) • European (CET) Time Zones',
     certification: "Certified Professional Virtual Assistant (AQskill)",
-    experienceYears: '5+ Years in Tech & SaaS Support',
+    experienceYears: '5+ Years in Tech, SaaS & Remote Operations',
     headshotUrl: '/olumide_pix2.jpg',
     availabilityStatus: 'Available for Part-Time & Full-Time Remote Engagements',
   },
 
   about: {
-    leadBio: `I am a trained Virtual Assistant with extensive experience in the IT and SaaS industry, working with cross-functional teams, and liaising with businesses for operational efficiency and sustainable growth.`,
+    leadBio: `I am a trained Virtual Assistant, E-Commerce Operations Specialist, and Virtual Bookkeeper with extensive experience across SaaS, retail, and tech industries, partnering with business leaders for operational efficiency and sustainable growth.`,
     expandedParagraphs: [
-      `For over 5 years, I have served as the trusted right hand to founders, executives, and cross-functional teams in demanding tech environments. My approach is rooted in calm consistency, proactive problem-solving, and a deep respect for an executive's most scarce resource: focused time.`,
-      `Beyond conventional calendar and inbox orchestration, I bring a distinct edge in no-code automation. By linking tools like Zapier, n8n, and webhooks with your CRM, communication channels, and spreadsheets, I build resilient systems that eliminate repetitive friction and ensure nothing slips through the cracks.`,
+      `For over 5 years, I have served as the trusted right hand to founders, executives, and business owners in demanding environments. My approach is rooted in calm consistency, proactive problem-solving, and a deep respect for an executive's most scarce resource: focused time.`,
+      `Beyond executive inbox and calendar orchestration, I actively support growing digital businesses as an E-Commerce Virtual Assistant (Shopify, Amazon, WooCommerce) and Virtual Bookkeeper (QuickBooks Online, Xero, bank reconciliations, A/R & A/P management).`,
+      `Complementing hands-on execution, I bring a distinct edge in no-code automation. By linking tools like Zapier, n8n, and webhooks with your store, bookkeeping ledgers, CRM, and communication channels, I build resilient systems that eliminate repetitive friction and ensure books and inventories balance effortlessly.`,
       `Certified through AQskill's Professional Virtual Assistance program, I operate with strict confidentiality, structured operating procedures, and measurable accountability across international time zones.`,
     ],
     infrastructure: [
       { label: 'Uninterrupted Power', detail: 'Dedicated solar/inverter backup guaranteeing 99.9% uptime' },
-      { label: 'High-Speed Connectivity', detail: 'Redundant fiber internet connections (100+ Mbps)' },
+      { label: 'Fast Internet Infrastructure', detail: 'High-speed router connection (50+ Mbps) plus secondary cellular backup' },
       { label: 'Executive Workstation', detail: 'Dual-monitor setup with encrypted password management & 2FA' },
       { label: 'Global Availability', detail: 'Seamless overlap with US, UK, and European business hours' },
     ],
@@ -103,6 +104,52 @@ export const PORTFOLIO_DATA = {
         'Workflow documentation & maintenance guides'
       ],
       quote: '“Turning 4 hours of tedious weekly copy-pasting into a background process that runs in seconds.”'
+    },
+    {
+      id: 'ecommerce-va',
+      title: 'E-Commerce Virtual Assistant',
+      subtitle: 'End-to-end store operations, catalog management & customer satisfaction',
+      badge: 'Core Pillar 03',
+      description: 'Reliable day-to-day management for online store owners across Shopify, Amazon Seller Central, and WooCommerce. Keeping your catalog updated, orders fulfilled, and customers delighted.',
+      features: [
+        'Product Listing & Catalog Hygiene: Crafting optimized titles, compelling descriptions, formatting variants/SKUs, uploading high-res imagery, and managing tags.',
+        'Order Fulfillment & Dispatch Tracking: Daily order monitoring, dropshipping/fulfillment center dispatch coordination, and rapid tracking updates for buyers.',
+        'Inventory Sync & Stock Level Alerts: Monitoring stock levels across multi-channel stores, avoiding stockouts or overselling, and flagging reorder thresholds.',
+        'Customer Care & Return Handling: Responding to pre-sale questions, order status inquiries, reviews, and RMA refunds via Zendesk, Gorgias, and email with high empathy.',
+        'Promotions & Discount Campaigns: Setting up discount codes, seasonal flash sale banners, product bundling, and basic collection merchandising.',
+        'Store Analytics & Performance Reports: Tracking weekly top-sellers, conversion bottlenecks, return rates, and customer sentiment to boost store growth.'
+      ],
+      tools: ['Shopify', 'Amazon Seller Central', 'WooCommerce', 'Gorgias', 'Zendesk', 'Canva', 'ShipStation', 'Google Sheets'],
+      deliverables: [
+        'Pristine, optimized product catalog & SKU structures',
+        'Zero-backlog order processing & tracking updates',
+        'Empathetic, under-2-hour customer support coverage',
+        'Weekly inventory health & sales metrics report'
+      ],
+      quote: '“Keeping your storefront humming around the clock while you focus on brand scaling and product development.”'
+    },
+    {
+      id: 'virtual-bookkeeper',
+      title: 'Virtual Bookkeeper',
+      subtitle: 'Accurate transaction recording, bank reconciliation & cash flow clarity',
+      badge: 'Core Pillar 04',
+      description: 'Confidential, meticulous bookkeeping support tailored to agency founders, e-commerce merchants, and small businesses. Keeping your financial records organized, reconciled, and tax-ready.',
+      features: [
+        'Bank & Credit Card Reconciliation: Weekly and monthly matching of bank feeds against ledger records in QuickBooks Online or Xero to ensure 100% balance accuracy.',
+        'Accounts Payable (A/P) Management: Entering vendor invoices, verifying payment terms, organizing bills, and scheduling payment batches to eliminate late fees.',
+        'Accounts Receivable (A/R) & Invoicing: Creating professional client invoices, tracking unpaid balances, and handling polite automated reminder workflows.',
+        'Expense Categorization & Receipt Organization: Tagging every transaction to the proper Chart of Accounts, attaching digital receipts via Dext/Drive, and maximizing tax deductions.',
+        'Financial Reporting & Statements: Generating monthly Profit & Loss (P&L), Balance Sheet, and Accounts Aging summaries for executive clarity.',
+        'Payment Gateway & Payout Matching: Reconciling merchant transactions across Stripe, PayPal, Shopify Payments, and Wise with zero discrepancy.'
+      ],
+      tools: ['QuickBooks Online', 'Xero', 'Wave Accounting', 'Dext / Hubdoc', 'Stripe', 'PayPal', 'Wise', 'Excel / Sheets'],
+      deliverables: [
+        '100% reconciled monthly bank & credit card accounts',
+        'Clean, audit-ready expense ledger with receipts attached',
+        'Timely client invoicing & reduced A/R collection cycles',
+        'Monthly P&L, Balance Sheet & Cash Flow summary briefings'
+      ],
+      quote: '“Eliminating bookkeeping stress with spotless ledger hygiene, timely invoicing, and clear financial clarity.”'
     }
   ] as ServiceItem[],
 
@@ -124,6 +171,22 @@ export const PORTFOLIO_DATA = {
       context: 'Zero lost leads, instant synchronization, and immediate team notifications via automated webhooks.'
     },
     {
+      id: 'impact-ecommerce',
+      title: 'E-Commerce Store & Catalog Operations',
+      metric: '99.8% Accuracy',
+      subMetric: '& Zero Order Backlog',
+      description: 'Managed product catalog updates, variant configurations, and daily fulfillment workflows across Shopify and Amazon Seller Central.',
+      context: 'Maintained spotless stock sync, fast dispute resolution, and 5-star customer feedback ratings.'
+    },
+    {
+      id: 'impact-bookkeeping',
+      title: 'Financial Ledger Hygiene & Reconciliation',
+      metric: '100% Reconciled',
+      subMetric: 'Monthly Bank & Payment Feeds',
+      description: 'Maintained up-to-date ledgers in QuickBooks and Xero, matching Stripe/PayPal payouts and reducing uncollected invoices.',
+      context: 'Provided founders with clean monthly P&L visibility and tax-ready audit trails.'
+    },
+    {
       id: 'impact-sla',
       title: 'Primary Client Liaison & Account Governance',
       metric: '98%+ SLA',
@@ -142,18 +205,32 @@ export const PORTFOLIO_DATA = {
   ] as ImpactCard[],
 
   tools: [
+    // Automation & AI
     { name: 'Zapier', category: 'Automation & AI', description: 'Multi-step triggers, filters, webhooks, and automated app workflows', level: 'Advanced' },
     { name: 'n8n', category: 'Automation & AI', description: 'Self-hosted & cloud workflow automation, complex JSON payloads, nodes', level: 'Advanced' },
+    // E-Commerce & Retail
+    { name: 'Shopify', category: 'E-Commerce & Retail', description: 'Store setup, product catalog listing, order processing, app integrations', level: 'Advanced' },
+    { name: 'Amazon Seller Central', category: 'E-Commerce & Retail', description: 'FBA / FBM order monitoring, listing optimization, buyer messages', level: 'Proficient' },
+    { name: 'WooCommerce', category: 'E-Commerce & Retail', description: 'WordPress catalog maintenance, order fulfillment, coupon rules', level: 'Advanced' },
+    { name: 'Gorgias / ShipStation', category: 'E-Commerce & Retail', description: 'E-commerce ticket routing, order tracking, shipping label workflows', level: 'Proficient' },
+    // Bookkeeping & Finance
+    { name: 'QuickBooks Online', category: 'Bookkeeping & Finance', description: 'Bank reconciliation, Chart of Accounts, invoicing, A/R & A/P, P&L reports', level: 'Advanced' },
+    { name: 'Xero', category: 'Bookkeeping & Finance', description: 'Cloud ledger management, transaction matching, bill payments, cash flow', level: 'Proficient' },
+    { name: 'Wave Accounting', category: 'Bookkeeping & Finance', description: 'Small business bookkeeping, income & expense categorization, invoicing', level: 'Advanced' },
+    { name: 'Stripe & PayPal', category: 'Bookkeeping & Finance', description: 'Payment gateway reconciliations, fee tracking, payout matching', level: 'Advanced' },
+    { name: 'Dext / Receipt Bank', category: 'Bookkeeping & Finance', description: 'Receipt capture, invoice matching, paperless expense archiving', level: 'Proficient' },
+    // Productivity & Workspace
     { name: 'Google Workspace', category: 'Productivity & Workspace', description: 'Advanced Gmail management, Calendar orchestration, Sheets, Docs, Drive', level: 'Expert' },
     { name: 'Microsoft 365', category: 'Productivity & Workspace', description: 'Outlook inbox mastery, Teams, OneDrive, Excel, SharePoint', level: 'Proficient' },
     { name: 'Notion', category: 'Productivity & Workspace', description: 'Company wikis, team dashboards, relational databases, SOP libraries', level: 'Advanced' },
+    // Communication & CRM
     { name: 'Slack', category: 'Communication & CRM', description: 'Channel architecture, Slack bot integrations, VIP alert routing', level: 'Expert' },
     { name: 'HubSpot', category: 'Communication & CRM', description: 'Contact management, deal tracking, automated pipeline follow-ups', level: 'Proficient' },
     { name: 'Zendesk', category: 'Communication & CRM', description: 'SLA monitoring, macro creation, ticket triage, CSAT optimization', level: 'Advanced' },
     { name: 'Asana', category: 'Project Management', description: 'Sprint tracking, executive milestone management, task dependencies', level: 'Advanced' },
     { name: 'Jira', category: 'Project Management', description: 'Sprint coordination, issue triaging, backlog hygiene for tech teams', level: 'Proficient' },
     { name: 'Trello', category: 'Project Management', description: 'Visual Kanban workflows, automated Butler rules, client roadmaps', level: 'Expert' },
-    { name: 'Canva', category: 'Communication & CRM', description: 'Executive slide deck touch-ups, visual briefs, social graphic assets', level: 'Proficient' },
+    { name: 'Canva', category: 'Communication & CRM', description: 'Executive slide deck touch-ups, visual briefs, product social assets', level: 'Proficient' },
   ] as ToolItem[],
 
   automationShowcase: [

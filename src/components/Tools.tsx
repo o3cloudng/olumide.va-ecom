@@ -17,9 +17,11 @@ export const Tools: React.FC = () => {
   const categories = [
     'All',
     'Automation & AI',
+    'E-Commerce & Retail',
+    'Bookkeeping & Finance',
     'Productivity & Workspace',
-    'Project Management',
-    'Communication & CRM'
+    'Communication & CRM',
+    'Project Management'
   ];
 
   const filteredTools = selectedCategory === 'All'

@@ -265,11 +265,17 @@ export const Contact: React.FC = () => {
                       onChange={(e) => setFormData({ ...formData, serviceInterest: e.target.value })}
                       className="w-full bg-[#FFFFFF] border border-[#DDD6CB] rounded-xl px-4 py-3 text-sm text-[#1E252B] focus:border-[#4A90A4] focus:ring-2 focus:ring-[#4A90A4]/20 outline-hidden transition-all"
                     >
-                      <option value="Both Virtual Assistance & Automation">
-                        Full Executive Assistance + Workflow Automations
+                      <option value="Full-Suite Support (VA, E-Commerce, Bookkeeping, Automations)">
+                        Full Operational Suite (Executive Support, E-Commerce, Bookkeeping & Automations)
                       </option>
                       <option value="Virtual Assistance & Executive Support">
                         Virtual Assistance & Calendar/Inbox Management
+                      </option>
+                      <option value="E-Commerce Virtual Assistant (Shopify, Amazon, Catalog)">
+                        E-Commerce Virtual Assistant (Shopify, Amazon, Orders & Customer Care)
+                      </option>
+                      <option value="Virtual Bookkeeper (QuickBooks, Xero, Reconciliation)">
+                        Virtual Bookkeeper (QuickBooks, Xero, Bank Reconciliation & Invoicing)
                       </option>
                       <option value="AI & Workflow Automation (Zapier/n8n)">
                         AI & Workflow Automations (Zapier, n8n, CRM sync)
